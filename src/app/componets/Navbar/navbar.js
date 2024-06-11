@@ -104,7 +104,9 @@ export default function Navbar(props) {
               className="inline-block dark:hidden"
               alt=""
             />
-            <p>Gitscreen</p>
+            <p className="from-emerald-300 via-emerald-500 to-emerald-800 bg-gradient-to-r bg-clip-text text-transparent">
+              Gitscreen
+            </p>
             <Image
               src="/images/gs_logo.webp"
               width={48}

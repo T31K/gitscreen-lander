@@ -75,7 +75,7 @@ export default function Faq() {
                           : "flex justify-between items-center p-5 w-full font-medium text-start text-dark dark:text-white"
                       }`}
                     >
-                      <span>{item.title}</span>
+                      <span className="font-medium text-md">{item.title}</span>
                       <svg
                         data-accordion-icon
                         className={`${
@@ -101,7 +101,7 @@ export default function Faq() {
                       aria-labelledby="accordion-collapse-heading-1"
                     >
                       <div className="p-5">
-                        <p className="text-slate-400 dark:text-gray-400">
+                        <p className="text-slate-600 dark:text-gray-400 text-md">
                           {item.content}
                         </p>
                       </div>

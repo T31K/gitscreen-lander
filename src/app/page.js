@@ -41,9 +41,9 @@ export default function IndexSaas() {
                 into your wallpaper.
               </h4>
 
-              <p className="text-slate-400 text-lg max-w-xl mx-auto">
-                Launch your campaign and benefit from our expertise on designing
-                and managing conversion centered Tailwind CSS v3.x html page.
+              <p className="text-slate-400 text-lg max-w-xl mx-auto my-3">
+                Show off your hard work with stunning
+                <br /> wallpapers crafted from your commits
               </p>
 
               <div className="mt-6">
@@ -57,7 +57,7 @@ export default function IndexSaas() {
             </div>
             <div className="home-dashboard mt-8 z-3 wow animate__animated animate__fadeIn">
               <Image
-                src="/images/saas/classic01.png"
+                src="/images/saas/hero.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -85,7 +85,7 @@ export default function IndexSaas() {
       <section className="relative md:py-24 py-16 overflow-hidden">
         {/* <KeyFeature /> */}
 
-        <div className="container relative md:mt-24 mt-16">
+        <div className="container relative md:mt-24 mt-16 mb-12`">
           <div
             className="grid grid-cols-1 pb-8 text-center wow animate__animated animate__fadeInUp"
             data-wow-delay=".1s"
@@ -106,12 +106,12 @@ export default function IndexSaas() {
               data-wow-delay=".3s"
             >
               <Image
-                src="/images/saas/classic02.png"
+                src="/images/saas/step_1.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
                 style={{ width: "100%", height: "auto" }}
-                className="rounded-lg shadow-md dark:shadow-gray-800"
+                className="rounded-lg shadow-md dark:shadow-gray-800 border-2"
                 alt=""
               />
               <div className="overflow-hidden absolute lg:size-[400px] size-[320px] bg-emerald-600/5 bottom-0 start-0 rotate-45 -z-1 rounded-3xl"></div>
@@ -121,31 +121,26 @@ export default function IndexSaas() {
               className="lg:ms-8 wow animate__animated animate__fadeInRight"
               data-wow-delay=".3s"
             >
-              <h4 className="mb-4 text-2xl leading-normal font-medium">
-                Great Product Analytics <br /> With Real Problem
+              <p>{">"} Step 1</p>
+              <h4 className="mb-4 text-3xl leading-normal font-semibold">
+                Setup{" "}
               </h4>
-              <p className="text-slate-400">
-                Due to its widespread use as filler text for layouts,
-                non-readability is of great importance: human perception is
-                tuned to recognize certain patterns and repetitions in texts. If
-                the distribution of letters visual impact.
-              </p>
               <ul className="list-none text-slate-400 mt-4">
-                <li className="mb-1 flex">
+                <li className="my-3 !mx-0 flex items-center">
                   <BsCheckCircle className="text-emerald-600 text-base me-2" />
-                  <i></i> Digital Marketing Solutions for Tomorrow
+                  <i></i>Enter your GitHub username
                 </li>
-                <li className="mb-1 flex">
+                <li className="my-3 !mx-0 flex items-center">
                   <BsCheckCircle className="text-emerald-600 text-base me-2" />
-                  <i></i> Our Talented & Experienced Marketing Agency
+                  <i></i> Gitscreen fetches your data
                 </li>
-                <li className="mb-1 flex">
+                <li className="my-3 !mx-0 flex items-center">
                   <BsCheckCircle className="text-emerald-600 text-base me-2" />
-                  <i></i> Create your own skin to match your brand
+                  <i></i> Gitscreen crafts your wallpaper
                 </li>
               </ul>
 
-              <div className="mt-4">
+              <div className="mt-4 invisible">
                 <Link
                   href="/page-aboutus"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-emerald-600 hover:text-emerald-600 after:bg-emerald-600 duration-500"
@@ -156,16 +151,14 @@ export default function IndexSaas() {
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="container relative md:mt-24 mt-16">
-          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-16 gap-[30px]">
             <div
               className="relative order-1 md:order-2 wow animate__animated animate__fadeInRight"
               data-wow-delay=".5s"
             >
               <Image
-                src="/images/saas/classic03.png"
+                src="/images/saas/step_2.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -180,31 +173,78 @@ export default function IndexSaas() {
               className="lg:me-8 order-2 md:order-1 wow animate__animated animate__fadeInLeft"
               data-wow-delay=".5s"
             >
-              <h4 className="mb-4 text-2xl leading-normal font-medium">
-                Get Notified About Importent Email
+              <p>{">"} Step 2</p>
+              <h4 className="mb-4 text-3xl leading-normal font-semibold">
+                Customize
               </h4>
-              <p className="text-slate-400">
-                Due to its widespread use as filler text for layouts,
-                non-readability is of great importance: human perception is
-                tuned to recognize certain patterns and repetitions in texts. If
-                the distribution of letters visual impact.
-              </p>
               <ul className="list-none text-slate-400 mt-4">
-                <li className="mb-1 flex">
+                <li className="my-3 !mx-0 flex items-center">
                   <BsCheckCircle className="text-emerald-600 text-base me-2" />
-                  <i></i> Digital Marketing Solutions for Tomorrow
+                  <i></i> Select from diverse color schemes.
                 </li>
-                <li className="mb-1 flex">
+                <li className="my-3 !mx-0 flex items-center">
                   <BsCheckCircle className="text-emerald-600 text-base me-2" />
-                  <i></i> Our Talented & Experienced Marketing Agency
+                  <i></i> Configure day labels and week pointers.
                 </li>
-                <li className="mb-1 flex">
+                <li className="my-3 !mx-0 flex items-center">
                   <BsCheckCircle className="text-emerald-600 text-base me-2" />
-                  <i></i> Create your own skin to match your brand
+                  <i></i>Choose between light and dark modes.
                 </li>
               </ul>
 
-              <div className="mt-4">
+              <div className="mt-4 invisible">
+                <Link
+                  href="/page-aboutus"
+                  className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-emerald-600 hover:text-emerald-600 after:bg-emerald-600 duration-500"
+                >
+                  Find Out More{" "}
+                  <MdKeyboardArrowRight className="text-xl ms-1" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-16 gap-[30px]">
+            <div
+              className="relative wow animate__animated animate__fadeInLeft"
+              data-wow-delay=".3s"
+            >
+              <Image
+                src="/images/saas/step_3.webp"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                className="rounded-lg shadow-md dark:shadow-gray-800"
+                alt=""
+              />
+              <div className="overflow-hidden absolute lg:size-[400px] size-[320px] bg-emerald-600/5 bottom-0 start-0 rotate-45 -z-1 rounded-3xl"></div>
+            </div>
+
+            <div
+              className="lg:ms-8 wow animate__animated animate__fadeInRight"
+              data-wow-delay=".3s"
+            >
+              <p>{">"} Step 3</p>
+              <h4 className="mb-4 text-3xl leading-normal font-semibold">
+                Voilà
+              </h4>
+              <ul className="list-none text-slate-400 mt-4">
+                <li className="my-3 !mx-0 flex items-center">
+                  <BsCheckCircle className="text-emerald-600 text-base me-2" />
+                  <i></i>Preview your dynamic wallpaper
+                </li>
+                <li className="my-3 !mx-0 flex items-center">
+                  <BsCheckCircle className="text-emerald-600 text-base me-2" />
+                  <i></i> Enable auto fetch to seamlessly update
+                </li>
+                <li className="my-3 !mx-0 flex items-center">
+                  <BsCheckCircle className="text-emerald-600 text-base me-2" />
+                  <i></i> Allow auto login to run on startup
+                </li>
+              </ul>
+
+              <div className="mt-4 invisible">
                 <Link
                   href="/page-aboutus"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-emerald-600 hover:text-emerald-600 after:bg-emerald-600 duration-500"
