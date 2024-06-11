@@ -94,7 +94,7 @@ export default function IndexSaas() {
               How It Works{" "}
             </h3>
 
-            <p className="text-slate-400 max-w-xl mx-auto">
+            <p className="text-slate-400 max-w-xl mx-auto hidden">
               Start working with Tailwind CSS that can provide everything you
               need to generate awareness, drive traffic, connect.
             </p>
