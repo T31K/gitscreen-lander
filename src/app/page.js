@@ -275,7 +275,7 @@ export default function IndexSaas() {
                     Quick Demo
                   </h3>
                   <Image
-                    src="/images/saas/home.png"
+                    src="/images/saas/home.webp"
                     width={0}
                     height={0}
                     sizes="100vw"

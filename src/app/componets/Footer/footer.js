@@ -110,20 +110,20 @@ export default function Footer() {
                 <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                   <div className="lg:col-span-4 md:col-span-12">
                     <Link href="/#" className="text-[22px] focus:outline-none">
-                      <Image
-                        src="/images/logo-light.png"
-                        width={138}
-                        height={24}
-                        alt=""
-                      />
+                      <div className="flex items-center gap-x-2">
+                        <Image
+                          src="/images/gs_logo.webp"
+                          width={48}
+                          height={48}
+                          className="inline-block dark:hidden"
+                          alt=""
+                        />
+                        <p className="from-emerald-300 via-emerald-500 to-emerald-800 bg-gradient-to-r bg-clip-text text-transparent">
+                          Gitscreen
+                        </p>
+                      </div>
                     </Link>
-                    <div className="w-full md:w-[80%]">
-                      <p className="mt-6 text-gray-300">
-                        Start working with Tailwind CSS that can provide
-                        everything you need to generate awareness, drive
-                        traffic, connect.
-                      </p>
-                    </div>
+                    <div className="w-full md:w-[80%]"></div>
                   </div>
 
                   <div className="lg:col-span-2 md:col-span-4 hidden">
