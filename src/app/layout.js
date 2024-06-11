@@ -50,9 +50,9 @@ const alex = Alex_Brush({
 });
 
 export const metadata = {
-  title: "Techwind - Next Js Multipurpose Landing & Admin Dashboard Template",
+  title: "Gitscreen: Turn your Github commit into your wallpaper.",
   description:
-    "Techwind - Next Js Multipurpose Landing & Admin Dashboard Template",
+    "Gitscreen: Turn your Github commit into your wallpaper | Show off your hard work with stunning wallpapers crafted from your commits",
 };
 
 export default function RootLayout({ children }) {
