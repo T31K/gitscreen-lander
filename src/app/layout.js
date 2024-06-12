@@ -58,6 +58,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" dir="LTR">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body
         className={`${space_mono.variable} ${work_sans.variable} ${eb_garamond.variable} ${kaushan.variable} ${alex.variable} font-nunito text-base text-black dark:text-white dark:bg-slate-900`}
       >

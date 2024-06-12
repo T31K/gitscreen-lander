@@ -48,7 +48,8 @@ export default function IndexSaas() {
 
               <div className="mt-6">
                 <Link
-                  href="#"
+                  href="https://github.com/T31K/gitscreen-releases/releases/download/0.1.0/gitscreen_0.1.0_universal.dmg"
+                  target="_blank"
                   className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-emerald-600 hover:bg-emerald-700 border-emerald-600 hover:border-emerald-700 text-white rounded-md"
                 >
                   Download Now
